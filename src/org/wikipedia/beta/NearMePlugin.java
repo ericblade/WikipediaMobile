@@ -1,4 +1,4 @@
-package org.wikipedia;
+package org.wikipedia.beta;
 
 import org.json.JSONArray;
 import org.json.JSONException;

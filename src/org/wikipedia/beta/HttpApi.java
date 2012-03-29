@@ -1,4 +1,4 @@
-package org.wikipedia;
+package org.wikipedia.beta;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

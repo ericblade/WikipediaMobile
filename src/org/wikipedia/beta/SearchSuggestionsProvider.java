@@ -1,4 +1,4 @@
-package org.wikipedia;
+package org.wikipedia.beta;
 
 import java.net.URLEncoder;
 
