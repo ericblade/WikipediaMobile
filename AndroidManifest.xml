@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		package="org.wikipedia" 
+		package="org.wikipedia.beta" 
 		android:versionCode="10"
 		android:versionName="1.1"
 		android:installLocation="auto">
@@ -13,9 +13,9 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-sdk android:minSdkVersion="8" />
-	<application android:name=".WikipediaApp" android:icon="@drawable/icon" android:label="@string/app_name">
+	<application android:name="org.wikipedia.WikipediaApp" android:icon="@drawable/icon" android:label="@string/app_name">
 		<uses-library android:name="com.google.android.maps" android:required="false" />
-		<activity android:launchMode="standard" android:name=".WikipediaActivity" android:label="@string/app_name"
+		<activity android:launchMode="standard" android:name="org.wikipedia.WikipediaActivity" android:label="@string/app_name"
 			android:configChanges="orientation|keyboardHidden">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
 			<intent-filter>
 			</intent-filter>
 		</activity>
-		<activity android:name=".NearMeActivity" android:label="@string/app_name"
+		<activity android:name="org.wikipedia.NearMeActivity" android:label="@string/app_name"
 			android:configChanges="orientation"
 			android:theme="@android:style/Theme.NoTitleBar">
 			<intent-filter>
@@ -47,6 +47,6 @@
 			</intent-filter>
 			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable_location" />
 		</activity>
-		<provider android:name=".SearchSuggestionsProvider" android:authorities="org.wikipedia.searchsuggestions"></provider>
+		<provider android:name="org.wikipedia.SearchSuggestionsProvider" android:authorities="org.wikipedia.searchsuggestions"></provider>
 	</application>
 </manifest>

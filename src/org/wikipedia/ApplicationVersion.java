@@ -3,6 +3,7 @@ package org.wikipedia;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.wikipedia.beta.R;
 
 import com.phonegap.api.LOG;
 import com.phonegap.api.Plugin;

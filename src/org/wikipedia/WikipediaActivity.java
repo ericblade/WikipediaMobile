@@ -3,6 +3,7 @@ package org.wikipedia;
 import android.os.Bundle;
 
 import com.phonegap.DroidGap;
+import org.wikipedia.beta.R;
 
 public class WikipediaActivity extends DroidGap {
 	@Override

@@ -3,6 +3,7 @@ package org.wikipedia;
 import java.net.URLEncoder;
 
 import org.json.JSONArray;
+import org.wikipedia.beta.R;
 
 import android.app.SearchManager;
 import android.content.ContentProvider;
