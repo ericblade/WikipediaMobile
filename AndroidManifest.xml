@@ -47,6 +47,6 @@
 			</intent-filter>
 			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable_location" />
 		</activity>
-		<provider android:name="org.wikipedia.SearchSuggestionsProvider" android:authorities="org.wikipedia.searchsuggestions"></provider>
+		<provider android:name="org.wikipedia.beta.SearchSuggestionsProvider" android:authorities="org.wikipedia.beta.searchsuggestions"></provider>
 	</application>
 </manifest>
